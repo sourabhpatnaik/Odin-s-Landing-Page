@@ -17,6 +17,7 @@
   background-color: #6c584c;
   padding: 0.5rem 0;
   box-shadow: 2px 5px 10px black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 ul,
 a {
@@ -47,6 +48,7 @@ a {
   padding: 100px;
   width: 75%;
   margin: auto 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .top-content-left {
@@ -90,6 +92,7 @@ a {
 
 .second-container {
   background-color: #f0ead2;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .dog-info-container {
@@ -137,7 +140,8 @@ a {
 /* --------------------THIRD CONTAINER-------------------- */
 
 .third-container{
-    background-color: #dde5b6;
+    background-color: #adc178;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -166,6 +170,7 @@ a {
 
 .fourth-container{
     padding: 100px 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .fourth-container-card{
@@ -193,7 +198,15 @@ a {
     border: none;
     background-color: #dde5b6;
     color: #6c584c;
+    font-weight: 700;
     overflow: visible;
+    box-shadow: 2px 2px 5px #acb86e ;
+}
+
+.right-section-four button:hover
+{background-color: #bbc683;
+
+
 }
 
 .right-section-four{
@@ -202,3 +215,11 @@ a {
 
 
 /* --------------------FOOTER-------------------- */
+
+footer{
+    background-color: #dde5b6;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 900;
+    color: #43362f;
+}
