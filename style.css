@@ -97,7 +97,7 @@ a {
   flex-direction: row;
   gap: 40px;
   color: black;
-  width: 50%;
+  width: 70%;
   justify-content: center;
   margin: 0 auto;
 }
@@ -130,7 +130,75 @@ a {
   font-size: 18px;
   text-align: center;
   color: #6c584c;
+  margin-bottom: 25px;
 }
 
 
 /* --------------------THIRD CONTAINER-------------------- */
+
+.third-container{
+    background-color: #dde5b6;
+
+}
+
+.third-content{
+    padding: 70px;
+    font-size: 32px;
+    width: 70%;
+   
+    margin: 0 auto;
+    
+}
+
+.third-content p{
+    color: #43362f;
+    text-align: center;
+}
+
+.bold{
+    font-weight: 700;
+    display: flex;
+    margin: 16px auto;
+    justify-content: flex-end;
+}
+
+/* --------------------FOURTH CONTAINER-------------------- */
+
+.fourth-container{
+    padding: 100px 0;
+}
+
+.fourth-container-card{
+    display: flex;
+    background-color: #6c584c;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 100px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #7d6659;
+    color: #dde5b6;
+    
+}
+
+.left-section-four,.right-section-four {
+    padding: 10px 10px;
+}
+.right-section-four button{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #dde5b6;
+    color: #6c584c;
+    overflow: visible;
+}
+
+.right-section-four{
+    padding-left: 125px;
+}
+
+
+/* --------------------FOOTER-------------------- */
