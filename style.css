@@ -63,7 +63,7 @@ a {
 }
 .top-content-left h1 {
   font-size: 50px;
-  color: #a98467;
+  color: #43362f;
   margin-bottom: 20px;
 }
 .top-content-left button {
@@ -74,6 +74,7 @@ a {
   border-radius: 5px;
   color: #f0ead2;
   background-color: #6c584c;
+  box-shadow: 2px 2px 4px black;
 }
 .top-content-left button:hover {
   background-color: #2f251f;
@@ -86,3 +87,50 @@ a {
 }
 
 /* -------------------- SECOND CONTAINER -------------------- */
+
+.second-container {
+  background-color: #f0ead2;
+}
+
+.dog-info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  color: black;
+  width: 50%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.second-container h1 {
+  text-align: center;
+  padding: 50px 0;
+  color: #43362f;
+}
+
+.dinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.dinfo h3 {
+  text-align: center;
+  color: #43362f;
+}
+.dinfo img {
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border: 5px solid #43362f;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px #7d6659;
+}
+
+.dinfo p {
+  font-size: 18px;
+  text-align: center;
+  color: #6c584c;
+}
+
+
+/* --------------------THIRD CONTAINER-------------------- */
